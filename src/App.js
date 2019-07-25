@@ -3,6 +3,7 @@ import logo from './logo.svg';
 
 
     const App = ({lakes}) => (
+                <p> Hello </p>
                 <ul>
                     {lakes.map(lake => 
                         <li key={lake.id}>{lake.name} | Trailhead: {lake.trailhead}</li>    
